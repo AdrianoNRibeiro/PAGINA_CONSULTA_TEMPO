@@ -17,3 +17,10 @@ function buttonSearchCityWeather() {
     const city = document.querySelector(".input-city").value;  
     searchCity(city);
 }
+
+document.addEventListener("keypress", function(e) {
+    if(e.key === 'Enter') {
+        var btn = document.querySelector(".button-search");
+        btn.click();  
+    }
+  });
