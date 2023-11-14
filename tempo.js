@@ -23,4 +23,4 @@ document.addEventListener("keypress", function(e) {
         var btn = document.querySelector(".button-search");
         btn.click();  
     }
-  });
+});
