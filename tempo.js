@@ -5,6 +5,7 @@ function putDatasOnScreen(datas) {
     document.querySelector(".weather").innerHTML = Math.floor(datas.main.temp) + "°C";
     document.querySelector(".text-forecast").innerHTML = datas.weather[0].description;
     document.querySelector(".umidity").innerHTML = "Umidade: " + datas.main.humidity + "%";
+    document.querySelector(".icon-weather").src = `https://openweathermap.org/img/wn/${datas.weather[0].icon}.png`;
 }
 
 async function searchCity(city) {
