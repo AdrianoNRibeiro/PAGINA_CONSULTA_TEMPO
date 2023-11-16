@@ -14,7 +14,7 @@ async function searchCity(city) {
 }
 
 function buttonSearchCityWeather() {
-    const city = document.querySelector(".input-city").value;  
+    const city = document.querySelector(".input-city").value; 
     searchCity(city);
 }
 
@@ -24,3 +24,11 @@ document.addEventListener("keypress", function(e) {
         btn.click();  
     }
 });
+
+
+function buttonSearchCityWeatherEmpty() {
+    const test = "Belo Horizonte";
+    searchCity(test);
+};
+
+buttonSearchCityWeatherEmpty();
