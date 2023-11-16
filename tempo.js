@@ -25,7 +25,6 @@ document.addEventListener("keypress", function(e) {
     }
 });
 
-
 function buttonSearchCityWeatherEmpty() {
     const test = "Belo Horizonte";
     searchCity(test);
