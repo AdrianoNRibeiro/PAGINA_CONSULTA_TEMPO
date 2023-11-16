@@ -16,9 +16,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100px;
+}
+
+.title h1 {
     color: white;
     text-shadow: 2px 2px 4px #000000;
     font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 500;
 }
 
 .main {
